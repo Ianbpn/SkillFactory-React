@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parentContainer{
+    background-color: chartreuse;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.childContainer{
+    background-color: #f0223b;
+    width: 70%;
+    height: 20%;
+    border: 1px solid black;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.childContainer2{
+    background-color: #fa23a9;
+    width: 30%;
+    height: 20%;
+    border: 1px solid black;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+.childContainer3{
+    font-size: 25px;
+    background-color: #8d0e96;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 50%;
+}
+.firstdiv{
+    font-size: 25px;
+    display: flex;
+    height: 60%;
+    width: 50%;
+    flex-direction: column;
+    border: 1px solid black; 
+}
+
+.childContainer4{
+display: flex;
+border: 1px solid black;
+height: 50%;
+background-color: #14E3B5;
+align-items: center;
+justify-content: center;
+}
+.childContainer5{
+display: flex;
+height: 50%;
+border: 1px solid black;
+background-color: #15967A;
+align-items: center;
+justify-content: center;
+}
+.seconddiv{
+    font-size: 25px;
+    border: 1px solid black;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.childContainer6{
+    background-color: #D72BE3;
+    width: 33.33%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.childContainer7{
+    background-color: #F34AFF;
+    width: 33.33%;
+    display: flex;
+    border: 1px solid black;
+    align-items: flex-end;
+}
+.childContainer8{
+    background-color: #7BE32B;
+    width: 33.33%;
+    display: flex;
+    border: 1px solid black;
+    align-items: flex-end;
+    justify-content: center;
+}
